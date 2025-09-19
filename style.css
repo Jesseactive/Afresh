@@ -37,7 +37,7 @@ nav {
     background-position: center;
     background-repeat: no-repeat;
     width: auto;
-    height: 100vh;
+    height: 125vh;
     list-style-type: none;
     color: white;
     font-size: 60px;
@@ -55,7 +55,7 @@ nav {
     border: none;
     /* padding: 20px; */
     width: 190px;
-    height: 60px;
+    height: 50px;
     font-size: 20px;
     color: black;
     background-color: white;
@@ -68,7 +68,49 @@ nav {
 }
 #rbtn {
     padding-left: 40px;
+    padding-top: 40px;
 }
 #small {
     font-size: 35px;
 }
+#rocketvalue {
+    padding: 80px;
+    text-align: center;
+    color: black;
+    font-size: 30px;
+}
+#swcpfy {
+    padding-left: 70px;
+    font-weight: lighter;
+    font-size: 24px;
+}
+#contact {
+    padding-top: 27px;
+    padding-left: 70px;
+    font-size: 30px;
+}
+#services1_2 {
+    display: flex;
+    justify-content: space-around;
+}
+#service1style a {
+    
+}
+.serviceText a{
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+}
+.serviceText a h4{
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    font-size: 23px;
+} 
+#serviceborder {
+    border: 0.5px solid gray;
+    /* border-color: grey; */
+}
+.serviceText h5{
+    color: #814ebf;}
