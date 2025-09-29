@@ -114,13 +114,13 @@ nav {
   color: #814ebf;
 }
 #wapws {
-    text-align: center;
-    font-weight: lighter;
-    font-size: 30px;
-    padding-top: 60px;
+  text-align: center;
+  font-weight: lighter;
+  font-size: 30px;
+  padding-top: 60px;
 }
 #rocketbtn2 {
-    border: none;
+  border: none;
   /* padding: 20px; */
   width: 190px;
   height: 50px;
@@ -129,45 +129,45 @@ nav {
   background-color: #814ebf;
 }
 #rbtn2 {
-text-align: center;
-padding-top: 25px;
+  text-align: center;
+  padding-top: 25px;
 }
 #orwsc {
-    text-align: center;
-    font-size: 30px;
-    padding-top: 120px;
-    font-style: italic;
+  text-align: center;
+  font-size: 30px;
+  padding-top: 120px;
+  font-style: italic;
 }
 #TNS {
-    text-align: center;
-    font-size: 15px;
-    font-family: proxima-nova, sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 1.75px;
-    font-weight: 500;
+  text-align: center;
+  font-size: 15px;
+  font-family: proxima-nova, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1.75px;
+  font-weight: 500;
 }
 #lastpart {
-    background-color: #814ebf;
-    background-image: url(images/contact-overlay.png);
-    color: white;
-    /* display: flex; */
+  background-color: #814ebf;
+  background-image: url(images/contact-overlay.png);
+  color: white;
+  /* display: flex; */
 }
-#bottomContainer{
-    padding: 50px;
-    display: flex;
-    align-items: center;
+#bottomContainer {
+  padding: 50px;
+  display: flex;
+  align-items: center;
 }
 #bottomContainer h3 {
-    /* color: white; */
-    font-size: 40px;
+  /* color: white; */
+  font-size: 40px;
 }
 #bottomContainer p {
-    /* color: white; */
-    font-size: 20px;
-    padding-right: 200px;
+  /* color: white; */
+  font-size: 20px;
+  padding-right: 200px;
 }
 #rocketbtn3 {
-    border: none;
+  border: none;
   /* padding: 20px; */
   width: 190px;
   height: 50px;
@@ -176,22 +176,22 @@ padding-top: 25px;
   background-color: white;
 }
 #rbtn3 {
-text-align: center;
-padding-top: 25px;
+  text-align: center;
+  padding-top: 25px;
 }
 footer {
-    background-color: black;
+  background-color: black;
 }
 #footerdiv {
-    padding-top: 50px;
-    padding-bottom: 50px;
-    padding-left: 50px;
-    padding-right: 120px;
-    display: flex;
-    align-items: center;
-    color: #fff;
-    justify-content: space-between;
-    align-items: flex-start;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 50px;
+  padding-right: 120px;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  justify-content: space-between;
+  align-items: flex-start;
 }
 #footerdiv h6 {
   color: rgb(133, 133, 133);
@@ -208,11 +208,11 @@ footer {
   color: white;
 }
 #footercontact {
-    /* font-size: 25px; */
+  /* font-size: 25px; */
   font-weight: 400;
 }
 #footerhours {
-   font-weight: 400;
+  font-weight: 400;
 }
 #footerrocketman {
   color: rgb(133, 133, 133);
