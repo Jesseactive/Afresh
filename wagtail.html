@@ -1,34 +1,662 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Wagtail</title>
-    <link rel="stylesheet" href="wagtail.css">
+    <link rel="stylesheet" href="wagtail.css" />
+    <script src="https://kit.fontawesome.com/8e1c14c3b8.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
     <div id="nav1">
-    <nav>
+        <nav>
+            <div>
+                <img src="images/learnwagtail-logo.png" alt="" />
+            </div>
+            <div id="links">
+                <ul>
+                    <a href="">Official Wagtail Course</a>
+                    <a href="">Docs</a>
+                    <a href="">Tutorials</a>
+                    <a href="">All Wagtail Courses</a>
+                </ul>
+            </div>
+            <div id="search">
+                <div>
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+                <div>
+                    <p>⌘K</p>
+                </div>
+            </div>
+            <div class="vertical-line"></div>
+            <div id="loginsign">
+                <div>Login</div>
+                <div id="verticallogin"></div>
+                <div id="signup">Sign Up</div>
+            </div>
+        </nav>
+    </div>
+    <div id="body">
         <div>
-        <img src="images/learnwagtail-logo.png" alt="">
+            <div id="heading">
+                <h1>Wagtail for Beginners <br />(Legacy Course)</h1>
+            </div>
+            <p>
+                Learn Wagtail from scratch. In this course we'll create a brand new
+                website and we'll launch it. The demo site you'll create can be found
+                at rocketman.learnwagtail.com
+            </p>
+            <div id="bodyref">
+                <div id="rbtn">
+                    <a href=""><button id="rocketbtn">BUY NOW FOR $19.95</button></a>
+                </div>
+                <div>
+                    <p>View Curriculum<i class="fa-solid fa-arrow-right-long"></i></p>
+                </div>
+            </div>
         </div>
-        <div id="links">
+        <div id="iframe">
+            <iframe width="500" height="300" src="https://www.youtube.com/embed/06n3dxEofnc"
+                title="Wagtail for Beginners Course" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+    </div>
+    <div id="head2">
+        <div id="df" class="bpr">
+            <div>
+                <i class="fa-solid fa-calendar is1"></i>
+            </div>
+            <div>
+                <h1>Learn when you want to</h1>
+                <p>All access, all the time</p>
+            </div>
+        </div>
+        <div id="df" class="bpr">
+            <div id="vertical-line"></div>
+            <div>
+                <i class="fa-solid fa-graduation-cap is"></i>
+            </div>
+            <div>
+                <h1>Good times ahead</h1>
+                <p>44 Lessons</p>
+            </div>
+        </div>
+        <div id="df" class="bpr">
+            <div id="vertical-line"></div>
+            <div>
+                <i class="fa-solid fa-globe is"></i>
+            </div>
+            <div>
+                <h1>Big or small</h1>
+                <p>Perfect for any website</p>
+            </div>
+        </div>
+    </div>
+    <div id="text2">
+        <div>
+            <h1>Welcome to Wagtail for Beginners!</h1>
+        </div>
+        <div>
+            <p>
+                This course is designed for developers who are new to Wagtail CMS.
+                Together, we'll create a brand new Wagtail website from scratch, and
+                at the end we'll deploy it to the web. Here's a preview of the final
+                website: Rocketman <br />
+                <br />If you're unsure whether this course is for you or not, consider
+                the follow topics we'll be covering together, and if you're unfamiliar
+                or not completely comfortable with all of these subjects then it's
+                likely this course is for you.
+            </p>
+        </div>
+        <div>
+            <h1>Here's what we'll be learning:</h1>
             <ul>
-            <a href="">Official Wagtail Course</a>
-            <a href="">Docs</a>
-            <a href="">Tutorials</a>
-            <a href="">All Wagtail Courses</a>
+                <li>Installation</li>
+                <br />
+                <div id="ls">
+                    <li>You'll learn how to install Wagtail using venv and Pipenv</li>
+                </div>
             </ul>
+            <ul>
+                <li>Create 7 custom</li>
+                <br />
+                <div id="ls">
+                    <li>
+                        Including services, misc pages, testimonials, StreamFields, a
+                        custom menu, contact pages, and global site settings
+                    </li>
+                </div>
+            </ul>
+            <ul>
+                <li>Contact pages</li>
+                <br />
+                <div id="ls">
+                    <li>Creating the initial page and the landing page</li>
+                    <li>Customizing contact form options</li>
+                </div>
+            </ul>
+            <ul>
+                <li>StreamFields</li>
+                <br />
+                <div id="ls">
+                    <li>Basic StreamFields</li>
+                    <li>Repeating StreamFields</li>
+                    <li>Custom StreamField validation</li>
+                    <li>Table blocks</li>
+                    <li>Reusing StreamField components</li>
+                    <li>Adding additional logic to StreamFields</li>
+                    <li>2 ways to create StreamFields</li>
+                </div>
+            </ul>
+            <ul>
+                <li>Custom pages</li>
+                <br />
+                <div id="ls">
+                    <li>Page validation</li>
+                    <li>Custom page fields</li>
+                    <li>Working with images and foreign keys to other models</li>
+                </div>
+            </ul>
+            <ul>
+                <li>
+                    Create listing pages to automatically populate content as soon as
+                    you create a new page
+                </li>
+            </ul>
+            <ul>
+                <li>Caching</li>
+                <br />
+                <div id="ls">
+                    <li>How to speed up your website with caching</li>
+                    <li>How to delete caching when you save a page or model</li>
+                </div>
+            </ul>
+            <ul>
+                <li>Create a custom menu</li>
+                <br />
+                <div id="ls">
+                    <li>You'll create a sortable menu system from scratch</li>
+                    <li>You'll be introduced to Orderables and Clusterable Models</li>
+                    <li>Register the menu with Wagtails ModelAdmin</li>
+                    <li>
+                        Create a custom Django template tag to work with your
+                        menutemplates
+                    </li>
+                </div>
+            </ul>
+            <ul>
+                <li>Create Django models</li>
+                <br />
+                <div id="ls">
+                    <li>Use Wagtail as the main admin interface</li>
+                </div>
+            </ul>
+            <ul>
+                <li>Installation</li>
+                <br />
+                <div id="ls">
+                    <li>Use Wagtail as the main admin interface</li>
+                    <li>How to turn Django models into reusable pieces of data (Wagtail snippets)</li>
+                </div>
+            </ul>
+            <ul>
+                <li>Create custom site settings</li>
+                <br />
+                <div id="ls">
+                    <li>You'll make site settings globally accessible</li>
+                    <li>Cache these settings</li>
+                    <li>And delete cache when the values are updated</li>
+                </div>
+            </ul>
+            <ul>
+                <li>Custom image cropping and renditions</li>
+                <br />
+                <div id="ls">
+                    <li>And .webp image support</li>
+                </div>
+            </ul>
+            <ul>
+                <li>Creating a sitemap</li>
+            </ul>
+            <ul>
+                <li>2 super helpful debugging tools</li>
+            </ul>
+            <ul>
+                <li>My personal methods for learning Wagtail quickly and efficiently</li>
+            </ul>
+            <ul>
+                <li>Launch your website on a brand new server</li>
+                <br />
+                <div id="ls">
+                    <li>Using Digital Ocean and Ubuntu 18 with Nginx and Gunicorn</li>
+                    <li>There's a free $50 credit inside for Digital Ocean as well</li>
+                </div>
+            </ul>
+            <ul>
+                <li>Install an error monitoring service for your live website <br></li>
         </div>
-    </nav>
-</div>
-<div id="text">
-<div>
-    Wagtail for Beginners
-</div>
-<div>
-    (Legacy Course)
-</div>
-</div>
+        </ul>
+        <div>
+            <h1>Courses bonuses:</h1>
+            <p>Here are some additional bonuses to taking this course.</p>
+        </div>
+        <ul>
+            <li>All the source code</li>
+            <li>The frontend build tools to customize the theme</li>
+            <li>A sample nginx config</li>
+            <li>Sample gunicorn files</li>
+        </ul>
+        <div>
+            <h1>Course requirements</h1>
+        </div>
+        <ul>
+            <li>An internet connection to stream the videos</li>
+            <li>You'll need to have Python install on your computer</li>
+        </ul>
+        <p>Additionally, this course comes with lifetime 24/7 access. <br>
+            If you think you could benefit from a course like this, definitely enrol today and let's get started.</p>
+    </div>
+    </div>
+    <div id="rbtn2">
+        <a href=""><button id="rocketbtn2">BUY NOW FOR $19.95</button></a>
+    </div>
+    <div id="iyc">
+        <div>
+            <h1>IN YOUR COURSE</h1>
+        </div>
+    </div>
+    <div id="iyc">
+        <p>44 Lessons</p>
+    </div>
+    <div id="boxes">
+        <div id="wtborder">
+            <a href="">
+                <h1>What is Wagtail?</h1>
+                <p>Let's take a quick look at what Wagtail CMS is, and what it isn't.</p>
+                <div id="wbdiv"><a href=""><button id="wb">Watch for free →</button></a></div>
+        </div></a>
+        <div id="wtborder">
+            <a href="">
+                <h1>Installing Wagtail</h1>
+                <p>In this lesson you'll learn how to install Wagtail using Python's venv and Pipenv</p>
+            </a>
+        </div>
+        <div id="wtborder">
+            <a href="">
+                <h1>Getting Started</h1>
+                <p>Let's make our websites look the same. If you have a different design you want …</p>
+            </a>
+        </div>
+    </div>
+    <br>
+    <div id="boxes">
+        <div id="wtborder">
+            <a href="">
+                <h1>Logging into the admin</h1>
+                <p>Wagtail comes with it's own admin interface. Let's sign in as a superuser.</p>
+                <div id="wbdiv"><a href=""><button id="wb">Watch for free →</button></a></div>
+        </div></a>
+        <div id="wtborder">
+            <a href="">
+                <h1>Wagtail Walkthrough</h1>
+                <p>Wagtail gives us a Home Page to start. Let's modify this a little bit to …</p>
+            </a>
+        </div>
+        <div id="wtborder">
+            <a href="">
+                <h1>Editing the Home Page</h1>
+                <p>Wagtail gives us a Home Page to start. Let's modify this a little bit to …</p>
+            </a>
+        </div>
+    </div>
+    <br>
+    <div id="boxes">
+        <div id="wtborder">
+            <a href="">
+                <h1>Working with the Base Template</h1>
+                <p>Every template comes from base.html when you start a new project. In this lesson we'll …</p>
+                <div id="wbdiv"><a href=""></a></div>
+        </div>
+        </a>
+        <div id="wtborder">
+            <a href="">
+                <h1>Services App (and new pages)</h1>
+                <p>We'll create a brand new Django app and create a couple Wagtail Pages from scratch.</p>
+            </a>
+        </div>
+        <div id="wtborder">
+            <a href="">
+                <h1>Service Page</h1>
+                <p>In our Services app we'll need two custom Wagtail pages. The first one is the …</p>
+            </a>
+        </div>
+    </div>
+    <br>
+    <div id="boxes">
+        <div id="wtborder">
+            <a href="">
+                <h1>Service Listing Page</h1>
+                <p>The Service Listing Page is going to be a mostly-automated page that automatically pulls in …</p>
+                <div id="wbdiv"><a href=""></a></div>
+        </div></a>
+        <div id="wtborder">
+            <a href="">
+                <h1>Custom Page Validation</h1>
+                <p>Wagtail and Django aren't perfect and they don't know our intentions. With custom page validation …
+                </p>
+            </a>
+        </div>
+        <div id="wtborder">
+            <a href="">
+                <h1>Adding a Header and Footer</h1>
+                <p>Our Rocketman website needs a header (nav) and footer. Let's add those in now.</p>
+            </a>
+        </div>
+    </div>
+    <br>
+    <div id="boxes">
+        <div id="wtborder">
+            <a href="">
+                <h1>Adding Debug Tools</h1>
+                <p>Like working in a trade, you need a good set of tools. Let's explore a …</p>
+                <div id="wbdiv"><a href=""></a></div>
+        </div></a>
+        <div id="wtborder">
+            <a href="">
+                <h1>Flexible (Misc.) Pages</h1>
+                <p>Most websites need a "general purpose" page. We'll create a new app and Wagtail page …</p>
+            </a>
+        </div>
+        <div id="wtborder">
+            <a href="">
+                <h1>Using Django Models with Wagtails ModelAdmin</h1>
+                <p>In this video we'll create a regular Django Model and enable Wagtail's ModelAdmin so we …</p>
+            </a>
+        </div>
+    </div>
+    <br>
+    <div id="boxes">
+        <div id="wtborder">
+            <a href="">
+                <h1>Welcome to StreamFields</h1>
+                <p>StreamFields are one of Wagtails most unique features. They let you move entire sections of …</p>
+                <div id="wbdiv"><a href=""><button id="wb">Watch for free →</button></a></div>
+        </div></a>
+        <div id="wtborder">
+            <a href="">
+                <h1>Creating the StreamField App</h1>
+                <p>StreamFields don't NEED their own app, but to keep our code nice and organized we'll …</p>
+            </a>
+        </div>
+        <div id="wtborder">
+            <a href="">
+                <h1>Your First StreamField</h1>
+                <p>In this lesson we'll create our first StreamField! 🎉</p>
+            </a>
+        </div>
+    </div>
+    <br>
+    <div id="boxes">
+        <div id="wtborder">
+            <a href="">
+                <h1>Repeating StreamField Blocks</h1>
+                <p>There's a really nice way to add repeating content in a single StreamField Block. In …</p>
+                <div id="wbdiv"><a href=""></a></div>
+        </div></a>
+        <div id="wtborder">
+            <a href="">
+                <h1>Simplifying Repeating StreamField Blocks</h1>
+                <p>Wagtail's ListBlock feature is powerful, but it can get REALLY big and hard to read …</p>
+            </a>
+        </div>
+        <div id="wtborder">
+            <a href="">
+                <h1>Custom StreamField (Block) Logic</h1>
+                <p>StreamField blocks can have additional logic beyond the content the user enters. In this lesson …</p>
+            </a>
+        </div>
+    </div>
+    <br>
+    <div id="boxes">
+        <div id="wtborder">
+            <a href="">
+                <h1>Image and Text StreamField Block</h1>
+                <p>Together we'll create a new block that let's us select an image and provide some …</p>
+                <div id="wbdiv"><a href=""></a></div>
+        </div></a>
+        <div id="wtborder">
+            <a href="">
+                <h1>Custom Radio Select Block</h1>
+                <p>Let's swap out a dropdown list for a radio list.</p>
+            </a>
+        </div>
+        <div id="wtborder">
+            <a href="">
+                <h1>Call to Action StreamField Block</h1>
+                <p>Let's create another fairly simple block that helps guide our website viewers to an action.</p>
+            </a>
+        </div>
+    </div>
+    <br>
+    <div id="boxes">
+        <div id="wtborder">
+            <a href="">
+                <h1>Django Models, Wagtail ModelAdmin, and Registering Snippets</h1>
+                <p>Let's integrate pure Django into Wagtail with a plain Django Model. We'll register it with …</p>
+                <div id="wbdiv"><a href=""></a></div>
+        </div></a>
+        <div id="wtborder">
+            <a href="">
+                <h1>Table StreamField Block</h1>
+                <p>Tables are old HTML from last century, and we don't use them too often anymore. …</p>
+            </a>
+        </div>
+        <div id="wtborder">
+            <a href="">
+                <h1>RichText StreamField Block</h1>
+                <p>Let's create a new StreamField block that allows headers, lists, images, bold, italic and much …</p>
+            </a>
+        </div>
+    </div>
+    <br>
+    <div id="boxes">
+        <div id="wtborder">
+            <a href="">
+                <h1>Image Chooser Block</h1>
+                <p>Learn how to create a simple StreamField with just an image in it, and how …</p>
+                <div id="wbdiv"><a href=""></a></div>
+        </div></a>
+        <div id="wtborder">
+            <a href="">
+                <h1>Custom StreamField Block Validation</h1>
+                <p>Occasionally we need to bend the rules a bit — like allowing a content editor …</p>
+            </a>
+        </div>
+        <div id="wtborder">
+            <a href="">
+                <h1>Limiting Pages</h1>
+                <p>It doesn't make sense to have a Home Page nested under a Home Page. In …</p>
+            </a>
+        </div>
+    </div>
+    <br>
+    <div id="boxes">
+        <div id="wtborder">
+            <a href="">
+                <h1>Create a Navigation System from Scratch</h1>
+                <p>Navigation doesn't need to be hard. In this lesson we'll take the slightly more complex …</p>
+                <div id="wbdiv"><a href=""></a></div>
+        </div></a>
+        <div id="wtborder">
+            <a href="">
+                <h1>Navigation Templates</h1>
+                <p>Now we'll work with our templates to display our navigation menu.</p>
+            </a>
+        </div>
+        <div id="wtborder">
+            <a href="">
+                <h1>Contact Forms: Part 1</h1>
+                <p>Contact forms are important on a website. Let's get the initial contact form setup.</p>
+            </a>
+        </div>
+    </div>
+    <br>
+    <div id="boxes">
+        <div id="wtborder">
+            <a href="">
+                <h1>Contact Forms: Part 2</h1>
+                <p>Contact forms are a big feature. We'll finish off our Contact Page in this lesson.</p>
+                <div id="wbdiv"><a href=""></a></div>
+        </div></a>
+        <div id="wtborder">
+            <a href="">
+                <h1>Limiting Contact Form Choices</h1>
+                <p>If you don't want to support every form field type in your contact form, we …</p>
+            </a>
+        </div>
+        <div id="wtborder">
+            <a href="">
+                <h1>Adding .webp Image Support</h1>
+                <p>.webp is a new age image format with high compression and very low quality loss. …</p>
+                <div id="wbdiv"><a href=""><button id="wb">Watch for free →</button></a></div>
+            </a>
+        </div>
+    </div>
+    <br>
+    <div id="boxes">
+        <div id="wtborder">
+            <a href="">
+                <h1>Additional Ways to Learn Wagtail</h1>
+                <p>Courses like this are great! But there are other ways to learn Wagtail and in …</p>
+                <div id="wbdiv"><a href=""></a></div>
+        </div></a>
+        <div id="wtborder">
+            <a href="">
+                <h1>Global Site Settings</h1>
+                <p>Thinks like social media links are often set as a global site setting. This feature …</p>
+            </a>
+        </div>
+        <div id="wtborder">
+            <a href="">
+                <h1>Changing the Wagtail Admin Logo</h1>
+                <p>Sometimes the biggest win for your website (or client) is a simple branding change. Using …</p>
+            </a>
+        </div>
+    </div>
+    <br>
+    <div id="boxes">
+        <div id="wtborder">
+            <a href="">
+                <h1>Adding Caching</h1>
+                <p>Let's add a form of caching to our website to speed it up. We'll use …</p>
+                <div id="wbdiv"><a href=""></a></div>
+        </div></a>
+        <div id="wtborder">
+            <a href="">
+                <h1>Caching the Navigation and Footer</h1>
+                <p>Navigation menus and footer links often bloat our page with queries that don't change very …</p>
+            </a>
+        </div>
+        <div id="wtborder">
+            <a href="">
+                <h1>Adding a Sitemap</h1>
+                <p>Search engines look for a sitemap.xml or sitemap.html file. It's a simple file that tells …</p>
+            </a>
+        </div>
+    </div>
+    <br>
+    <div id="boxes">
+        <div id="wtborder">
+            <a href="">
+                <h1>Preparing for Launch</h1>
+                <p>Let's get our website ready for production by working with our production.py file. We'll also …</p>
+                <div id="wbdiv"><a href=""></a></div>
+        </div></a>
+        <div id="wtborder">
+            <a href="">
+                <h1>Launching Your Website</h1>
+                <p>🎉🎉 Let's launch this website! We'll use Digital Ocean, Ubuntu 18, Postgres, Nginx and Gunicorn. …
+                </p>
+            </a>
+        </div>
+    </div>
+    <br>
+    <div id="rbtn3">
+        <a href=""><button id="rocketbtn3">Buy now for $19.95</button></a>
+    </div>
+    <br><br>
+    <div id="ssww">
+        <div id="ssww1">
+            <h1>Stay Sharp with Wagtail.</h1>
+            <p>Subscribe for fresh tutorials, expert guides, documentation updates, and Wagtail core news — straight to
+                your inbox. No spam. No fluff. Just the good stuff.</p>
+            <div id="inputss">
+                <div>
+                    <input type="email" placeholder="Enter Your Email" id="formControl">
+                </div>
+                <div id="rbtn4">
+                    <a href=""><button id="rocketbtn4">SUBSCRIBE</button></a>
+                </div>
+            </div>
+        </div>
+        <div id="cal">
+            <i class="fa-regular fa-calendar-days is2"></i>
+            <h2>Monthly Updates</h2>
+            <p>Cool content for monthly members. No silly spam.</p>
+        </div>
+        <div>
+            <i class="fa-solid fa-graduation-cap is2"></i>
+            <h2>Tutorials That Teach</h2>
+            <p>Stay up to date with the latest and greatest in Wagtail CMS.</p>
+        </div>
+    </div>
+    <footer>
+        <div>
+            <img src="images/learnwagtail-logo.png" alt="" />
+            <p>Build Better with Wagtail</p>
+            <div id="tcy">
+                <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+                <a href=""><i class="fa-solid fa-cat"></i></a>
+                <a href=""><i class="fa-brands fa-youtube"></i></a>
+            </div>
+
+        </div>
+        <div id="courseleft">
+            <h4>Courses</h4>
+            <a href="">
+                <p>The Ultimate Wagtail Developers Course</p>
+            </a>
+            <a href="">
+                <p>Wagtail for Beginners</p>
+            </a>
+        </div>
+        <div id="miscright">
+            <h4>Misc.</h4>
+            <a href="">
+                <p>About</p>
+            </a>
+            <a href="">
+                <p>Sitemap</p>
+            </a>
+        </div>
+        <div id="quickright">
+            <h4>Quick Links</h4>
+            <a href="">
+                <p>Tutorials</p>
+            </a>
+            <a href="">
+                <p>Contact</p>
+            </a>
+            <a href="">
+                <p>Blog</p>
+            </a>
+        </div>
+    </footer>
+    <hr>
 </body>
+
 </html>
